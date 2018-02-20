@@ -1,0 +1,89 @@
+{
+  "name": "campaign",
+  "plural": "campaign",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "c_title": {
+      "type": "string",
+      "required": true
+    },
+    "c_image": {
+      "type": "string",
+      "required": true
+    },
+    "c_description": {
+      "type": "string",
+      "required": true
+    },
+    "c_start_date": {
+      "type": "date",
+      "required": true
+    },
+    "c_end_date": {
+      "type": "date",
+      "required": true
+    },
+    "c_goal": {
+      "type": "number",
+      "required": true
+    },
+    "c_video": {
+      "type": "string",
+      "required": true
+    },
+    "c_description_long": {
+      "type": "string",
+      "required": true
+    },
+    "c_author": {
+      "type": "number",
+      "required": true
+    },
+    "c_created_at": {
+      "type": "date",
+      "required": true
+    },
+    "c_display_name": {
+      "type": "string",
+      "required": true
+    },
+    "c_email": {
+      "type": "string",
+      "required": true
+    },
+    "c_location": {
+      "type": "string",
+      "required": true
+    },
+    "c_biography": {
+      "type": "string",
+      "required": true
+    },
+    "c_social_profile": {
+      "type": "string",
+      "required": true
+    },
+    "c_status": {
+      "type": "string",
+      "required": true
+    },
+    "c_cat_id": {
+      "type": "number",
+      "required": true,
+      "default": 10
+    },
+    "c_new_tag": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

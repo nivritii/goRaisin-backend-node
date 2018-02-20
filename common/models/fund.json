@@ -1,0 +1,30 @@
+{
+  "name": "fund",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fund_c_id": {
+      "type": "number",
+      "required": true
+    },
+    "fund_user_id": {
+      "type": "number",
+      "required": true
+    },
+    "fund_amt": {
+      "type": "number",
+      "required": true
+    },
+    "fund_created_on": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "reward",
+  "plural": "reward",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "c_id": {
+      "type": "number",
+      "required": true
+    },
+    "r_title": {
+      "type": "string",
+      "required": true
+    },
+    "r_pledge_amt": {
+      "type": "number",
+      "required": true
+    },
+    "r_description": {
+      "type": "string",
+      "required": true
+    },
+    "r_limit_availability": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

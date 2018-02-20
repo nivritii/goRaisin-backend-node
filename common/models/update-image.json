@@ -1,0 +1,23 @@
+{
+  "name": "update_image",
+  "plural": "update_image",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "r_image": {
+      "type": "string",
+      "required": true
+    },
+    "r_background_color": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

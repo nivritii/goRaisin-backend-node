@@ -1,0 +1,38 @@
+{
+  "name": "comment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "comment_camp_id": {
+      "type": "number",
+      "required": true
+    },
+    "comment_user_id": {
+      "type": "number",
+      "required": true
+    },
+    "comment_content": {
+      "type": "string",
+      "required": true
+    },
+    "comment_status": {
+      "type": "string",
+      "required": true,
+      "default": "Approved"
+    },
+    "comment_datetime": {
+      "type": "date",
+      "required": true
+    },
+    "faq": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
